@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* BLOG*/
+.tigre {
+	background-image: url("../images/slider/bg1.jpg");
+	background-size: cover;
+	height: 500px;
+}
